@@ -78,20 +78,20 @@ const Register: NextPage = () => {
     hash: data?.hash,
   });
   useEffect(() => {
-  console.log('useEffect called');
-  if (isSuccess) {
-    toast({
-      title: "User Registered",
-      description: "User has been registered successfully",
-      status: "success",
-      duration: 8000,
-      isClosable: true,
-    });
-    setName('');
-    setEmail('');
-    setRole('0');
-  }
-}, [isSuccess]);
+    console.log('useEffect called');
+    if (isSuccess) {
+      toast({
+        title: "User Registered",
+        description: "User has been registered successfully",
+        status: "success",
+        duration: 8000,
+        isClosable: true,
+      });
+      setName('');
+      setEmail('');
+      setRole('0');
+    }
+  }, [isSuccess]);
 
   const handleRoleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
     const selectedIndex = event.target.selectedIndex;
@@ -131,6 +131,7 @@ const Register: NextPage = () => {
                     options={roles}
                     value={role}
                     onChange={handleRoleChange}
+                    {...(role && { value: role })}
                   />
                   <Button label="Register" onClick={() => {
                     write?.();
