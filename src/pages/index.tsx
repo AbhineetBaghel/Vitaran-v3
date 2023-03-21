@@ -80,7 +80,7 @@ const Home: NextPage = () => {
         </div>
         <div>
           <h3 className="text-lg md:text-xl text-white font-semibold mb-2">Decentralised</h3>
-          <p className="text-white mb-2">Empower your supply chain with decentralised solutions so that there isn't a single point of failure. </p>
+          <p className="text-white mb-2">Empower your supply chain with decentralised solutions so that there isn&apos;t a single point of failure. </p>
           <a href="#" className="text-[white] hover:text-indigo-600 active:text-indigo-700 font-bold transition duration-100">More</a>
         </div>
       </div>
