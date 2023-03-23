@@ -8,16 +8,6 @@ Vitran is a cutting-edge supply chain management system that leverages the power
 ![image](https://user-images.githubusercontent.com/95743189/218319346-de8dc78a-5235-4720-942c-d8c7ba1e4e41.png)
 
 
-At the heart of Vitran is the Ethereum blockchain, which provides a secure and decentralized platform for the storage and transfer of information. Our system leverages the power of smart contracts to automate the process of tracking and verifying the authenticity of products as they move through the supply chain. This ensures that every step of the supply chain is transparent and can be audited at any time.
-
-In addition to its powerful backend, Vitran also features a sleek and user-friendly frontend that is built using the Next.js framework. This allows for fast and responsive interactions with the system, making it easy for users to access the information they need in real-time. The frontend is designed to be accessible and intuitive, allowing even those who are new to blockchain technology to easily navigate the system.
-
-With Vitran, you can be confident that your supply chain is secure and that your products are genuine. Our system is designed to provide you with the tools you need to manage your supply chain with ease, while also providing you with the peace of mind that comes from knowing that your data is secure and your products are authentic.
-
-So why wait? Take your supply chain management to the next level with Vitran. Start using our cutting-edge system today and experience the many benefits of blockchain technology for yourself.
-
-![image](https://user-images.githubusercontent.com/95743189/218319269-015b614f-af33-4025-8733-d9b147330c1c.png)
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 TO RUN THIS PROJECT -
 
